@@ -1,0 +1,47 @@
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+<link rel="stylesheet" href="css/style.css" />
+
+<div class="container">
+    <h3 class="h3">EVM Mechine Demo</h3>
+    <div class="row">
+        <div class="col-md-12 col-sm-12">
+            <div class="product-grid">
+                <div class="product-image">
+                        <img class="pic-1" src="images/evm.jpg">
+                </div>
+                	<ul class="social1">
+                    	<li><a id="demo"></a></li>
+                	</ul>
+
+                     <ul class="social">
+                    	<li><button id="demo1" onclick="playSound();"></button></li>
+                	</ul>
+
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+$('#demo1').click(function() {
+    $('#demo').css({
+        'background-color': 'red',
+        'color': 'white',
+        'font-size': '44px'
+    });
+});
+</script>
+
+
+  <audio id="audio" src="http://www.soundjay.com/button/beep-07.wav" autoplay="false" ></audio>
+
+    <script>
+    function playSound() {
+          var sound = document.getElementById("audio");
+          sound.play();
+      }
+    </script>
