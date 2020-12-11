@@ -65,6 +65,9 @@ h3.h3{text-align:center;margin:1em;text-transform:capitalize;font-size:1.7em;}
 .product-grid .social {
                 top: 18%;
 				 }
+	.product-grid .social li button {
+
+    background-color:transparent;}
 .product-grid .social li button {
 
     height: 54px;
@@ -94,6 +97,9 @@ h3.h3{text-align:center;margin:1em;text-transform:capitalize;font-size:1.7em;}
     .product-grid{
                     margin-bottom:30px
                  }
+	.product-grid .social li button {
+
+    background-color:transparent;}
 }
 @media only screen and (max-width:768px){
     .product-grid{
@@ -104,30 +110,45 @@ h3.h3{text-align:center;margin:1em;text-transform:capitalize;font-size:1.7em;}
     .product-grid{
                     margin-bottom:30px
                  }
+	.product-grid .social li button {
+
+    background-color:transparent;}
 }
 
 @media only screen and (max-width:574px){
     .product-grid{
                     margin-bottom:30px
                  }
+	.product-grid .social li button {
+
+    background-color:transparent;}
 }
 
 @media only screen and (max-width:480px){
     .product-grid{
                     margin-bottom:30px
                  }
+	.product-grid .social li button {
+
+    background-color:transparent;}
 }
 
 @media only screen and (max-width:460px){
     .product-grid{
                     margin-bottom:30px
                  }
+	.product-grid .social li button {
+
+    background-color:transparent;}
 }
 
 @media only screen and (max-width:420px){
     .product-grid{
                     margin-bottom:30px
                  }
+	.product-grid .social li button {
+
+    background-color:transparent;}
 }
 
 @media only screen and (max-width:320px){
